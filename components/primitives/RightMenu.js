@@ -18,7 +18,7 @@ flex-flow: row nowrap;
 
 li{
   padding-left: 25px;
-  padding-right: 25px;
+  padding-right: 35px;
   font-size: 14px;
   height: 20px;
   align-self: center;

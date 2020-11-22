@@ -20,7 +20,8 @@ background: #051e3a;
 box-shadow: 2px 2px 20px;
 display: flex;
 justify-content: space-between;
-position: sticky;
+position: fixed;
+z-index: 18;
 `
 const Title = styled.h1`
 color: white;
