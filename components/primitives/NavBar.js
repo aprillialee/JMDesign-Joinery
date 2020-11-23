@@ -16,7 +16,7 @@ export default NavBar;
 const NavBarStyled = styled.div`
 width: 100%;
 height: 75px;
-background: #051e3a;
+background: #0C072C;
 box-shadow: 2px 2px 20px;
 display: flex;
 justify-content: space-between;

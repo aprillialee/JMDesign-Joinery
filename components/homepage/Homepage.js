@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import HomeButton from "./HomeButton";
+
 function HomePage(){
   return(
   <>
@@ -9,6 +11,10 @@ function HomePage(){
     <HomeFeature>
       <HomeTitle>DESIGN CENTRIC CARPENTRY</HomeTitle>
       <HomeSubtitle>Beautiful craftsmanship for all of your carpentry needs.</HomeSubtitle>
+      <HomeButtonStyled>
+        <HomeButton label="CONTACT US"/>
+        <HomeButton label="GALLERY"/>
+      </HomeButtonStyled>
     </HomeFeature>
   </HomePageStyled>
   </>
@@ -52,9 +58,9 @@ opacity: 25%;
 `
 
 const HomeFeature = styled.div`
-width: 42%;
+width: 39%;
 height: 300px;
-margin-left: 10%;
+margin-left: 12.5%;
 margin-top: 15%;
 position: absolute;
 @media (max-width: 1000px) {
@@ -63,8 +69,16 @@ position: absolute;
 }
 `
 
+
+const HomeButtonStyled = styled.div`
+width: 100%;
+height: 15%;
+display: flex;
+flex-flow: row nowrap;
+`
+
 const HomeTitle = styled.h1`
-font-size: 4.8vw;
+font-size: 4.5vw;
 color: white;
 letter-spacing: 3px;
 font-weight: 500;
@@ -72,7 +86,8 @@ font-weight: 500;
 
 const HomeSubtitle = styled.h2`
 font-weight: 300;
-letter-spacing: 0.5vw;
+width: 80%;
+letter-spacing: 0.2vw;
 color: white;
 margin-top: -35px;
 font-size: 1.5vw;
