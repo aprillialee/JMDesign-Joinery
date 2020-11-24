@@ -25,7 +25,7 @@ margin-right: 60px;
 
 const ButtonText = styled.label`
 color: white;
-font-size: 18px;
+font-size: 1.5vw;
 `
 
 

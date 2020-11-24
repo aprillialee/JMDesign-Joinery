@@ -6,6 +6,9 @@ function NavBar() {
   return(
     <NavBarStyled>
       <Title>JM DESIGN &#38; JOINERY</Title>
+      <LogoContainer>
+        <Logo src="./images/logo.png" alt="Logo"/>
+      </LogoContainer>
       <Burger/>
     </NavBarStyled>
   )
@@ -32,5 +35,26 @@ align-self: center;
 @media (max-width: 800px){
 display: none;
 }
+`
+
+const LogoContainer = styled.div`
+width: 150px;
+height: 150px;
+margin-left: 45%;
+position: absolute;
+
+@media (max-width: 1000px){
+width: 80px;
+height: 80px;
+}
+
+@media (max-width: 450px){
+  margin-left: 40%;
+}
+`
+
+const Logo = styled.img`
+width: 100%;
+height: 100%;
 `
 
