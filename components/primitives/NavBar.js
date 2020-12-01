@@ -1,13 +1,19 @@
 import styled from "styled-components"
 
+import Link from 'next/link'
+
 import Burger from "./Burger"
 
 function NavBar() {
   return(
     <NavBarStyled>
-      <Title>JM DESIGN &#38; JOINERY</Title>
+      <Link href="/">
+      <a><Title>JM DESIGN &#38; JOINERY</Title></a>
+      </Link>
       <LogoContainer>
-        <Logo src="./images/logo.png" alt="Logo"/>
+        <Link href="/">
+        <a><Logo src="./images/logo.png" alt="Logo"/></a>
+        </Link>
       </LogoContainer>
       <Burger/>
     </NavBarStyled>
@@ -25,12 +31,17 @@ display: flex;
 justify-content: space-between;
 position: fixed;
 z-index: 18;
+
+a {
+  display: flex;
+}
 `
 const Title = styled.h1`
 color: white;
 font-size: 1.2vw;
 margin-left: 35px;
 align-self: center;
+
 
 @media (max-width: 800px){
 display: none;

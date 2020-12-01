@@ -1,10 +1,16 @@
 import styled from "styled-components"
 
+import Link from 'next/link'
+
 function RightMenu({ open }) {
   return(
     <MenuList open={open}>
       <li>OUR STORY</li>
-      <li>OUR SERVICES</li>
+      <li>
+        <Link href="/ourservices">
+          <a>OUR SERVICES</a>
+        </Link>
+      </li>
       <OtherItems>GALLERY</OtherItems>
       <OtherItems>CONTACT US</OtherItems>
     </MenuList>

@@ -23,8 +23,9 @@ function HomePage(){
 
 const HomePageStyled = styled.div`
 width: 100%;
-height: 800px;
+height: 700px;
 display: flex;
+
 
 img{
   width: 100%;
@@ -43,7 +44,7 @@ img{
 
 const ImageCover = styled.div`
 width: 100%;
-height: 800px;
+height: 700px;
 position: absolute;
 background: black;
 opacity: 25%;
@@ -58,10 +59,10 @@ opacity: 25%;
 `
 
 const HomeFeature = styled.div`
-width: 39%;
+width: 55%;
 height: 300px;
-margin-left: 12.5%;
-margin-top: 15%;
+margin-left: 12%;
+margin-top: 12%;
 position: absolute;
 @media (max-width: 1000px) {
   margin-top: 150px;
@@ -78,7 +79,7 @@ flex-flow: row nowrap;
 `
 
 const HomeTitle = styled.h1`
-font-size: 4.5vw;
+font-size: 6.5vw;
 color: white;
 letter-spacing: 3px;
 font-weight: 500;
@@ -86,14 +87,14 @@ font-weight: 500;
 
 const HomeSubtitle = styled.h2`
 font-weight: 300;
-width: 80%;
+width: 90%;
 letter-spacing: 0.2vw;
 color: white;
-margin-top: -35px;
-font-size: 1.5vw;
+margin-top: -60px;
+font-size: 2vw;
 
 @media (max-width: 1000px) {
-  margin-top: -20px;
+  margin-top: -40px;
 }
 
 @media (max-width: 1000px) {
