@@ -30,7 +30,7 @@ top: 25px;
   display: flex;
   justify-content: space-around;
   flex-flow: column nowrap;
-  margin-left: 35px;
+  margin-left: 90%;
 }
 
 div {

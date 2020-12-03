@@ -51,16 +51,14 @@ display: none;
 const LogoContainer = styled.div`
 width: 150px;
 height: 150px;
-margin-left: 45%;
+margin-left: 45.5%;
 position: absolute;
 
 @media (max-width: 1000px){
-width: 80px;
-height: 80px;
-}
-
-@media (max-width: 450px){
-  margin-left: 40%;
+width: 75px;
+height: 75px;
+margin-left: 2%;
+margin-top: 0.5%;
 }
 `
 
