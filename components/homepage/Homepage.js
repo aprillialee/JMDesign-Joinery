@@ -71,8 +71,8 @@ const HomeFeature = styled.div`
   }
 
   @media (max-width: 768px) {
-    margin-left: 60px;
-    margin-top: 200px;
+    margin-left: 50px;
+    margin-top: 180px;
   }
 `;
 
@@ -92,8 +92,8 @@ const HomeTitle = styled.h1`
   margin: 0;
 
   @media (max-width: 768px) {
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 50px;
+    line-height: 50px;
   }
 `;
 
