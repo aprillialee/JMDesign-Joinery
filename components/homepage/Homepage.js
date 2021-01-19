@@ -69,6 +69,11 @@ const HomeFeature = styled.div`
   @media (max-width: 1024px) {
     width: 75%;
   }
+
+  @media (max-width: 768px) {
+    margin-left: 60px;
+    margin-top: 200px;
+  }
 `;
 
 const HomeButtonStyled = styled.div`
@@ -85,6 +90,11 @@ const HomeTitle = styled.h1`
   font-weight: 500;
   padding: 0;
   margin: 0;
+
+  @media (max-width: 768px) {
+    font-size: 35px;
+    line-height: 40px;
+  }
 `;
 
 const HomeSubtitle = styled.h2`
@@ -94,6 +104,10 @@ const HomeSubtitle = styled.h2`
   padding: 0;
   margin: 0 0 30px 0;
   font-size: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 15px;
+  }
 `;
 
 export default HomePage;
