@@ -1,69 +1,72 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-import Link from 'next/link'
+import Link from "next/link";
 
-import Burger from "./Burger"
+import Burger from "./Burger";
 
 function NavBar() {
-  return(
+  return (
     <NavBarStyled>
-      <Link href="/">
-      <a><Title>JM DESIGN &#38; JOINERY</Title></a>
-      </Link>
+      <Title>JM DESIGN &#38; JOINERY</Title>
       <LogoContainer>
-        <Link href="/">
-        <a><Logo src="./images/logo.png" alt="Logo"/></a>
-        </Link>
+        <img src="./images/logo.png" alt="Logo" />
       </LogoContainer>
-      <Burger/>
+      <Burger />
     </NavBarStyled>
-  )
+  );
 }
-
-export default NavBar;
 
 const NavBarStyled = styled.div`
-width: 100%;
-height: 75px;
-background: #0C072C;
-box-shadow: 2px 2px 20px;
-display: flex;
-justify-content: space-between;
-position: fixed;
-z-index: 18;
-
-a {
   display: flex;
-}
-`
+  justify-content: center;
+  width: 100%;
+  height: 75px;
+  background: #0c072c;
+  box-shadow: 0.5px 0.5px 2px;
+  position: fixed;
+  z-index: 20;
+
+  @media (max-width: 1024px) {
+    justify-content: space-between;
+  }
+`;
+
 const Title = styled.h1`
-color: white;
-font-size: 1.2vw;
-margin-left: 35px;
-align-self: center;
+  width: 300px;
+  color: white;
+  font-size: 15px;
+  align-self: center;
+  padding-left: 25px;
 
-
-@media (max-width: 800px){
-display: none;
-}
-`
+  @media (max-width: 1024px) {
+    display: none;
+  }
+`;
 
 const LogoContainer = styled.div`
-width: 150px;
-height: 150px;
-margin-left: 45.5%;
-position: absolute;
+  width: 120px;
+  height: 120px;
+  margin: 0px auto 0px auto;
 
-@media (max-width: 1000px){
-width: 75px;
-height: 75px;
-margin-left: 2%;
-margin-top: 0.5%;
-}
-`
+  img {
+    width: 100%;
+    height: 100%;
+  }
 
-const Logo = styled.img`
-width: 100%;
-height: 100%;
-`
+  @media (max-width: 1024px) {
+    margin: 0;
+    width: 75px;
+    height: 75px;
+  }
+`;
 
+export default NavBar;
+/*const BurgerStyled = styled.div`
+  display: flex;
+  align-self: center;
+  align-content: center;
+  width: 300px;
+  height: 100%;
+  padding-right: 25px;
+  z-index: 50;
+`;*/
