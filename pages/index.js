@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
-import HomePage from "../components/homepage/Homepage"
-import OurServices from "./ourservices"
-
+import HomePage from "../components/homepage/Homepage";
+import OurServices from "./ourservices";
+import Gallery from "./gallery";
 
 export default function Home() {
   return (
@@ -12,8 +12,9 @@ export default function Home() {
         <title>JM Design &#38; Joinery</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <HomePage/>
-      <OurServices/>
+      <HomePage />
+      <OurServices />
+      <Gallery />
     </>
-  )
+  );
 }
