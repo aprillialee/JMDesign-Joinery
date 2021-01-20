@@ -33,6 +33,11 @@ const GalleryGridStyled = styled.div`
   grid-template-rows: repeat(7, 1fr);
   grid-column-gap: 5px;
   grid-row-gap: 5px;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-flow: row wrap;
+  }
 `;
 
 const GridItem1 = styled.div`
