@@ -51,6 +51,8 @@ const OurStoryTextContainer = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
 
   @media (max-width: 768px) {
     width: 100%;
