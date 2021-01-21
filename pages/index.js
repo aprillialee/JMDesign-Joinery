@@ -1,9 +1,9 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 
 import HomePage from "../components/homepage/Homepage";
 import OurServices from "./ourservices";
 import Gallery from "./gallery";
+import OurStoryPage from "./ourstory";
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
       <HomePage />
       <OurServices />
       <Gallery />
+      <OurStoryPage />
     </>
   );
 }

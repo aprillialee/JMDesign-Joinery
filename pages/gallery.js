@@ -1,7 +1,7 @@
 import GalleryPage from "../components/gallerypage/GalleryPage";
 
 function Gallery() {
-  return <GalleryPage>HELLO</GalleryPage>;
+  return <GalleryPage />;
 }
 
 export default Gallery;

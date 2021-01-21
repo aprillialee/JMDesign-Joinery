@@ -27,12 +27,12 @@ function GalleryGrid() {
 
 const GalleryGridStyled = styled.div`
   width: 100%;
-  height: 100%;
+  height: 600px;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(7, 1fr);
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
 
   @media (max-width: 768px) {
     display: flex;
