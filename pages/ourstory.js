@@ -1,5 +1,7 @@
 import OurStoryPage from "../components/ourstory/OurStoryPage";
 
-export default function OurStory() {
+function OurStory() {
   return <OurStoryPage />;
 }
+
+export default OurStory;

@@ -89,7 +89,7 @@ const Title = styled.h1`
   color: white;
   padding: 0;
   margin: 0 0 0px;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
   @media (max-width: 768px) {
     line-height: 50px;
@@ -103,6 +103,7 @@ const Subtitle = styled.div`
   padding: 0;
   text-align: center;
   font-size: 15px;
+  font-weight: 400;
 
   @media (max-width: 768px) {
     width: 100%;

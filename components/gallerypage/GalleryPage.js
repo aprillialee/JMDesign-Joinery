@@ -32,7 +32,7 @@ const Title = styled.h1`
   font-size: 50px;
   color: black;
   padding: 0;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
   @media (max-width: 768px) {
     line-height: 50px;

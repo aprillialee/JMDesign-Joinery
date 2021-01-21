@@ -37,12 +37,12 @@ const GalleryGridStyled = styled.div`
   @media (max-width: 768px) {
     display: flex;
     flex-flow: row wrap;
+    height: 100%;
   }
 `;
 
 const GridItem1 = styled.div`
   grid-area: 1 / 1 / 5 / 3;
-  background: red;
 
   img {
     width: 100%;
@@ -52,7 +52,6 @@ const GridItem1 = styled.div`
 
 const GridItem2 = styled.div`
   grid-area: 1 / 3 / 3 / 5;
-  background: red;
 
   img {
     width: 100%;
@@ -61,7 +60,6 @@ const GridItem2 = styled.div`
 `;
 const GridItem3 = styled.div`
   grid-area: 3 / 3 / 5 / 5;
-  background: red;
 
   img {
     width: 100%;
@@ -71,7 +69,6 @@ const GridItem3 = styled.div`
 
 const GridItem4 = styled.div`
   grid-area: 1 / 5 / 5 / 8;
-  background: red;
 
   img {
     width: 100%;
@@ -81,7 +78,6 @@ const GridItem4 = styled.div`
 
 const GridItem5 = styled.div`
   grid-area: 5 / 1 / 8 / 6;
-  background: red;
 
   img {
     width: 100%;
@@ -91,7 +87,6 @@ const GridItem5 = styled.div`
 
 const GridItem6 = styled.div`
   grid-area: 5 / 6 / 8 / 8;
-  background: red;
 
   img {
     width: 100%;
