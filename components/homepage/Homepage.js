@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import Link from "next/link";
+
 import HomeButton from "./HomeButton";
 
 function HomePage() {
@@ -14,8 +16,12 @@ function HomePage() {
             Beautiful craftsmanship for all of your carpentry needs.
           </HomeSubtitle>
           <HomeButtonStyled>
-            <HomeButton label="CONTACT US" />
-            <HomeButton label="GALLERY" />
+            <Link href="/contactus">
+              <HomeButton label="CONTACT US" />
+            </Link>
+            <Link href="/gallery">
+              <HomeButton label="GALLERY" />
+            </Link>
           </HomeButtonStyled>
         </HomeFeature>
       </HomePageStyled>

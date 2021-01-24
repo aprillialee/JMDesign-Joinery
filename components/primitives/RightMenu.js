@@ -5,13 +5,17 @@ import Link from "next/link";
 function RightMenu({ open }) {
   return (
     <MenuList open={open}>
-      <li>OUR STORY</li>
+      <Link href="/ourstory">
+        <li>OUR STORY</li>
+      </Link>
       <li>
         <Link href="/ourservices">
           <a>OUR SERVICES</a>
         </Link>
       </li>
-      <OtherItems>GALLERY</OtherItems>
+      <OtherItems>
+        <Link href="/gallery">GALLERY</Link>
+      </OtherItems>
       <OtherItems>CONTACT US</OtherItems>
     </MenuList>
   );

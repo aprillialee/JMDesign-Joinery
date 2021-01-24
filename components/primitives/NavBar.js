@@ -9,7 +9,9 @@ function NavBar() {
     <NavBarStyled>
       <Title>JM DESIGN &#38; JOINERY</Title>
       <LogoContainer>
-        <img src="./images/logo.png" alt="Logo" />
+        <Link href="/">
+          <img src="./images/logo.png" alt="Logo" />
+        </Link>
       </LogoContainer>
       <Burger />
     </NavBarStyled>

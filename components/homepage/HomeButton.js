@@ -15,6 +15,8 @@ const Button = styled.button`
   border-radius: 5px;
   border: none;
   margin-right: 60px;
+  outline: none;
+  cursor: pointer;
 
   @media (max-width: 600px) {
     display: none;
@@ -24,6 +26,7 @@ const Button = styled.button`
 const ButtonText = styled.label`
   color: white;
   font-size: 1.5vw;
+  cursor: pointer;
 `;
 
 export default HomeButton;
