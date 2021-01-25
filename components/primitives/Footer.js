@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -7,7 +8,9 @@ function Footer() {
         <LogoContainer>
           <img src="/images/logo.png" />
         </LogoContainer>
-        <ContactUsButton>Contact Us</ContactUsButton>
+        <Link href="/contactus">
+          <ContactUsButton>Contact Us</ContactUsButton>
+        </Link>
         <CopyRight>&copy;JM DESIGN &#38; JOINERY 2021</CopyRight>
       </FooterContainer>
     </FooterStyled>
@@ -50,6 +53,7 @@ const ContactUsButton = styled.button`
   border-bottom: 1px solid white;
   color: white;
   font-weight: 400;
+  cursor: pointer;
 `;
 
 const CopyRight = styled.p`
