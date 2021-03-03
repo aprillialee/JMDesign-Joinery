@@ -61,5 +61,6 @@ const SkillDescription = styled.h2`
   font-size: 13px;
   margin-top: -8px;
   font-weight: 400;
+  text-align: center;
 `;
 export default SkillCard;

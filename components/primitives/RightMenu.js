@@ -33,6 +33,7 @@ const MenuList = styled.ul`
     height: 20px;
     color: white;
     padding-left: 25px;
+    cursor: pointer;
   }
   @media (max-width: 1000px) {
     flex-flow: column nowrap;

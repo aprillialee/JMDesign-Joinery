@@ -21,22 +21,22 @@ function Services() {
             <SkillCard
               skill="KITCHENS"
               image="/images/kitchen.jpg"
-              description="We Make Kitchens"
+              description="Our joiners have over 30 years experience in building kitchens. Make your favourite meals in your ideal kitchen"
             />
             <SkillCard
               skill="HOME OFFICES"
               image="/images/houses.jpg"
-              description="we make home offices"
+              description="With remote working growing exponentionally over the past year, your workspace dream is only a phone call away"
             />
             <SkillCard
               skill="LANDSCAPES"
               image="/images/garden.jpg"
-              description="We make gardens"
+              description="Breathe in the fresh air in a beautiful landscape that is designed to bring you calm and happiness"
             />
             <SkillCard
               skill="BOATS"
               image="/images/boat.jpg"
-              description="we make boats"
+              description="Enjoy your boat knowing that it has been fixed by expert craftspeople with over 30 years experience"
             />
           </SkillsContainer>
         </Container>
@@ -98,7 +98,7 @@ const Title = styled.h1`
   }
 `;
 
-const Subtitle = styled.div`
+const Subtitle = styled.p`
   width: 50%;
   margin: 0;
   padding: 0;
