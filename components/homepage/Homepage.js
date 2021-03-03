@@ -17,10 +17,14 @@ function HomePage() {
           </HomeSubtitle>
           <HomeButtonStyled>
             <Link href="/contactus">
-              <HomeButton label="CONTACT US" />
+              <a>
+                <HomeButton label="CONTACT US" />
+              </a>
             </Link>
             <Link href="/gallery">
-              <HomeButton label="GALLERY" />
+              <a>
+                <HomeButton label="GALLERY" />
+              </a>
             </Link>
           </HomeButtonStyled>
         </HomeFeature>

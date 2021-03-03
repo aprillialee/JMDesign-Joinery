@@ -10,7 +10,7 @@ function HomeButton(props) {
 
 const Button = styled.button`
   background: #0c072c;
-  width: 30%;
+  width: 210px;
   height: 80%;
   border-radius: 5px;
   border: none;
